@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-green-900 h-screen">
+    <div class="bg-green-200 h-screen">
         asdf
     </div>
 </template>
