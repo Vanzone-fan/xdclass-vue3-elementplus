@@ -9,11 +9,12 @@ import 'element-plus/dist/index.css';
 import * as ElementPlusIconsVue from '@element-plus/icons-vue';
 
 const app = createApp(App);
+const pinia = createPinia();
+
 Object.keys(ElementPlusIconsVue).forEach(key => {
 	app.component(key, ElementPlusIconsVue[key]);
 });
 
-const pinia = createPinia();
 app.use(router);
 app.use(pinia);
 app.use(ElementPlus);
